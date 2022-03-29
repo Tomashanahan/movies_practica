@@ -1,0 +1,33 @@
+/*  #ffffff */
+/*  #e5e5e5 */
+/*  #fca311 */
+/*  #14213d */
+/*  #000000 */
+
+
+
+.serch_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fca311;
+    padding: 20px;
+}
+
+input {
+    margin-left: 10px;
+    padding: 10px;
+    /* color: ; */
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    margin-left: 10px;
+    padding: 8px;
+    background: #14213d;
+    color: #e5e5e5;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
