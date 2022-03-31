@@ -4,6 +4,7 @@ import './search_bar.css'
 
 function Search_bar({setInput}) {
   const input_value = useRef()
+  
   function buscar_pelicula(e) {
     setInput(input_value.current.value)
   }
